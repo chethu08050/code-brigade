@@ -1,0 +1,9 @@
+📦 Requirements
+Python 3.7+
+Streamlit
+Pandas
+Matplotlib
+Plotly
+NumPy
+pyttsx3
+openpyxl
