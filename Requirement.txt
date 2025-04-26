@@ -1,9 +1,18 @@
-📦 Requirements
-Python 3.7+
-Streamlit
-Pandas
-Matplotlib
-Plotly
-NumPy
-pyttsx3
-openpyxl
+import os
+
+# List of required libraries
+requirements = [
+    "streamlit",
+    "pandas",
+    "matplotlib",
+    "plotly",
+    "numpy",
+    "pyttsx3",
+    "openpyxl"
+]
+
+# Install each library using pip
+for package in requirements:
+    os.system(f"pip install {package}")
+
+print("✅ All packages installed successfully!")
